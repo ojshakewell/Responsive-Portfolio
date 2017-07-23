@@ -1,0 +1,251 @@
+
+
+
+.wrapper  {
+
+	width: 100%
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	padding: 3em 0 3em 0;
+	border-bottom: 2pt;
+	border-style: solid;
+    border-color: #cccccc;
+}
+
+/*Brand box with name*/
+.userName {
+
+	font-size: 20pt;
+	position: absolute;
+	float:left;
+	color: white;
+	background-color: #4aaaa5;
+	top:0;
+	left: 4em;
+	padding: 1.32em;
+}
+
+/*Navbar links*/
+.linkMenu {
+
+	float: left;
+	margin-left: 70%;
+}
+
+.content {
+
+	background-image: url("../images/background.png");
+	width:100%;
+	height: 60%;
+	display: flex;
+}
+
+article {
+
+	font-size: 12pt;
+	width:630px;
+	float:left;
+	background-color: #ffffff;
+	margin: 4em;
+	padding: 2em;
+	height: 100%;
+}
+
+.icon {
+
+	width: 4em;
+}
+
+h1 {
+
+	color: #4aaaa5;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.bigDaddy {
+	width:15em;
+	float: left;
+	margin:0 1em 1em 0;
+}
+
+
+
+
+h2 {
+
+	color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+nav {
+
+	width: 250px;
+	float: left;
+	background-color: #ffffff;
+	margin: 4em 5% 5% 0;
+	padding: 2em;
+	height: 100%
+}
+
+a {
+
+	color:#cccccc;
+	text-decoration: none;
+}
+
+.contactBody {
+	background-image: url("../images/background.png");
+}
+
+.clearfix::after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+
+	width:100%;
+	text-align: center;
+	background-color: #666666;
+	color: #cccccc;
+	padding: 50px 0 50px 0;
+	border-top: 5px;
+	border-style: solid;
+    border-color: #4aaaa5;
+}
+
+textarea {
+
+	height: 10em;
+	width: 100%;
+}
+
+button {
+
+	width: 7em;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-size: 14pt;
+	padding: .5em;
+	border: none;
+}
+
+
+
+input {
+
+	width: 100%;
+	padding:.5em;
+	color: #cccccc;
+}
+
+.image {
+	position: relative;
+
+}
+
+.bigDaddyA {
+	width: 15em;
+	float: left;
+
+	
+}
+
+.bigDaddyB {
+
+	position: static;
+	width: 15em;
+	float:right;
+}
+
+.bigDaddyC {
+	
+	position: static;
+	width: 15em;
+	float: left;
+}
+
+.bigDaddyD {
+	position: static;
+	width: 15em;
+	float:right;
+}
+
+.captionA {
+
+	text-align: center;
+	position: absolute;
+	top: 250px;
+	left: 0;
+	width: 13.75em;
+	height: 30px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+	/*z-index: 1;*/
+}
+
+.captionB {
+
+	text-align: center;
+	position: absolute;
+	top: 250px;
+	/*right: 0;*/
+	width: 13.75em;
+	height: 30px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+	float:right; 
+}
+
+.captionC {
+
+	text-align: center;
+	position: absolute;
+	top: 250px;
+	left: 0;
+	width: 13.75em;
+	height: 30px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+	/*z-index: 1;*/
+}
+
+.captionD {
+
+	text-align: center;
+	position: absolute;
+	top: 250px;
+	/*right: 0;*/
+	width: 13.75em;
+	height: 30px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+	float:right; 
+}
